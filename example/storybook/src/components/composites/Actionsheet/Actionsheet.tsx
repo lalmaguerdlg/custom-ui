@@ -30,8 +30,8 @@ import {
   Image,
   Text,
   Center,
-} from '@custom-ui/themed';
-import { config } from '@custom-ui/config';
+} from '@occ-ui/components';
+import { config } from '@occ-ui/config';
 
 const ActionsheetBasic = ({ showActionsheetProp, ...props }: any) => {
   const [showActionsheet, setShowActionsheet] = React.useState(false);

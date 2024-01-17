@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, Center } from '@custom-ui/themed';
+import { Text, Center } from '@occ-ui/components';
 
 const TextBasic = ({
   size = 'md',

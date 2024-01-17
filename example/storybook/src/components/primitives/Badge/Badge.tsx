@@ -25,20 +25,34 @@ import {
   MenuItem,
   MenuItemLabel,
   GlobeIcon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 import {
   PaintBucket,
   PuzzleIcon,
   BadgeCheckIcon,
   BadgePlusIcon,
 } from 'lucide-react-native';
+import { ComponentProps } from 'react';
 
-const BadgeBasic = ({ text = 'NEW FEATURE', ...props }: any) => {
+type BadgeProps = ComponentProps<typeof Badge>;
+
+const BadgeBasic = ({ text = 'NEW FEATURE', ..._props }: any) => {
+  const [action, setAction] = React.useState<BadgeProps['action']>('error');
+
   return (
-    <Badge {...props} gap="$1">
-      <BadgeText>{text}</BadgeText>
-      <BadgeIcon as={GlobeIcon} />
-    </Badge>
+    <>
+      <Button
+        onPress={() =>
+          setAction((old) => (old === 'error' ? 'warning' : 'error'))
+        }
+      >
+        <ButtonText>Change Badge variant</ButtonText>
+      </Button>
+      <Badge action={action} gap="$1">
+        <BadgeText>{text}</BadgeText>
+        <BadgeIcon as={GlobeIcon} />
+      </Badge>
+    </>
   );
 };
 

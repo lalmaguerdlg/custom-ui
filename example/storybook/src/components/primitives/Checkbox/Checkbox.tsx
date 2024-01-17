@@ -15,7 +15,7 @@ import {
   RemoveIcon,
   Box,
   FormControl,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const CheckboxGroupBasic = ({ ...props }: any) => {
   const [values, setValues] = React.useState(['Label 1']);

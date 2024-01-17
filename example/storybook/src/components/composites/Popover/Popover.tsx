@@ -23,7 +23,7 @@ import {
   AvatarFallbackText,
   CircleIcon,
   AddIcon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 import { PhoneIcon, Clock3Icon, MailIcon } from 'lucide-react-native';
 

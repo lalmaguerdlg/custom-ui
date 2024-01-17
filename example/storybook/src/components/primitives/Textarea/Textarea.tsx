@@ -8,7 +8,7 @@ import {
   FormControlError,
   FormControlLabel,
   FormControlLabelText,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const TextareaBasic = ({ ...props }: any) => {
   return (

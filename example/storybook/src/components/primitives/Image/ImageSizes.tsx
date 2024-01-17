@@ -1,5 +1,5 @@
-import { Image } from '@custom-ui/themed';
-import { VStack } from '@custom-ui/themed';
+import { Image } from '@occ-ui/components';
+import { VStack } from '@occ-ui/components';
 import React from 'react';
 
 const ImageSizes = ({

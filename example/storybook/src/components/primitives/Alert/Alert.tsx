@@ -10,7 +10,7 @@ import {
   AlertCircleIcon,
   VStack,
   Icon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const AlertBasic = ({ ...props }: any) => {
   return (

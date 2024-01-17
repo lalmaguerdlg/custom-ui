@@ -21,7 +21,7 @@ import {
   Divider,
   Image,
   CheckboxIcon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 import { CheckIcon, EditIcon, ShoppingCartIcon } from 'lucide-react-native';
 

@@ -6,8 +6,8 @@ import {
   Pressable,
   Text,
   Box,
-} from '@custom-ui/themed';
-import { config } from '@custom-ui/config';
+} from '@occ-ui/components';
+import { config } from '@occ-ui/config';
 
 const ProviderStory = () => {
   const [colorMode, setColorMode] = React.useState<

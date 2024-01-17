@@ -15,7 +15,7 @@ import {
   SelectScrollView,
   SelectTrigger,
   Icon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const SelectWithScrollView = ({ isDisabled, isInvalid, ...props }: any) => {
   // variables

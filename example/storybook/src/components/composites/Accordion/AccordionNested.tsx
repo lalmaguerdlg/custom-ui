@@ -7,7 +7,7 @@ import {
   AccordionIcon,
   AccordionContent,
   AccordionContentText,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 import { MinusIcon, PlusIcon } from 'lucide-react-native';
 import React from 'react';
 

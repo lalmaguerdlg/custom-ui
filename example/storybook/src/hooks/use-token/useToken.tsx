@@ -1,5 +1,5 @@
 import { View } from 'react-native';
-import { useToken } from '@custom-ui/themed';
+import { useToken } from '@occ-ui/components';
 import React from 'react';
 
 export default function Example({ scale, token }: any) {

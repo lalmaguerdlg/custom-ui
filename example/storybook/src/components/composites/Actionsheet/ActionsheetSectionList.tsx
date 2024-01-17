@@ -11,7 +11,7 @@ import {
   ActionsheetSectionList,
   ActionsheetSectionHeaderText,
   Button,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const ActionsheetWithSectionlist = ({
   showActionsheet: showActionsheetProp = true,

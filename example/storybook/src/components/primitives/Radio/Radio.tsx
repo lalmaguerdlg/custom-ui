@@ -14,7 +14,7 @@ import {
   Text,
   FormControl,
   CircleIcon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const RadioBasic = ({ ...props }: any) => {
   const [values, setValues] = React.useState('Label 1');

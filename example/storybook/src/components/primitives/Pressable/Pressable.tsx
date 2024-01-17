@@ -1,5 +1,5 @@
 import React from 'react';
-import { Center, Pressable, Text } from '@custom-ui/themed';
+import { Center, Pressable, Text } from '@occ-ui/components';
 
 const PressableBasic = ({ ...props }: any) => {
   return (

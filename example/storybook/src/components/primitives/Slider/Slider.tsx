@@ -14,7 +14,7 @@ import {
   TooltipContent,
   Button,
   Center,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 import { Volume, Volume2Icon, LightbulbIcon } from 'lucide-react-native';
 

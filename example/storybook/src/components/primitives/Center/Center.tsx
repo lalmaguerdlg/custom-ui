@@ -1,4 +1,4 @@
-import { Text, Center } from '@custom-ui/themed';
+import { Text, Center } from '@occ-ui/components';
 import React from 'react';
 
 const CenterBasic = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Center, Heading } from '@custom-ui/themed';
+import { Center, Heading } from '@occ-ui/components';
 
 const HeadingBasic = ({ text = "I'm the heading", ...props }) => {
   return <Heading {...props}>{text}</Heading>;

@@ -8,11 +8,11 @@ module.exports = function (api) {
         'module-resolver',
         {
           alias: {
-            '@custom-ui/themed': path.join(
+            '@occ-ui/components': path.join(
               __dirname,
               '../../packages/themed/src'
             ),
-            '@custom-ui/config': path.join(
+            '@occ-ui/config': path.join(
               __dirname,
               '../../packages/config/src/gluestack-ui.config'
             ),

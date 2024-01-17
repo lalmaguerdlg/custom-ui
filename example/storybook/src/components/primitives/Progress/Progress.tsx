@@ -8,7 +8,7 @@ import {
   Box,
   Heading,
   Center,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const ProgressBasic = ({ value = 50, ...props }: any) => {
   return (

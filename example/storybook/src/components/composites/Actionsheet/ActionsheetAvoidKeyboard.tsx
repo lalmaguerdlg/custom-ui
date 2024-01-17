@@ -21,11 +21,11 @@ import {
   Text,
   Box,
   Icon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 import { KeyboardAvoidingView, Platform } from 'react-native';
 import { createIcon } from '@gluestack-ui/icon';
 import { Svg, Path } from 'react-native-svg';
-import { styled, AsForwarder } from '@custom-ui/themed';
+import { styled, AsForwarder } from '@occ-ui/components';
 
 const IconRoot: any = styled(
   AsForwarder,

@@ -15,7 +15,7 @@ import {
   SelectTrigger,
   SelectVirtualizedList,
   Icon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const SelectWithVirtualizedList = ({
   isDisabled,

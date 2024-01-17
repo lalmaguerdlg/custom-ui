@@ -5,7 +5,7 @@ import {
   AvatarBadge,
   AvatarFallbackText,
   AvatarImage,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 import React from 'react';
 
 const AvatarGroupBasic = ({ size = 'md', badge }: any) => {

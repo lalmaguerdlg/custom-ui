@@ -1,4 +1,4 @@
-import { Box, Center } from '@custom-ui/themed';
+import { Box, Center } from '@occ-ui/components';
 import React from 'react';
 
 import {
@@ -18,7 +18,7 @@ import {
   ThreeDotsIcon,
   Input,
   InputField,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 import { EditIcon, ArrowLeftIcon } from 'lucide-react-native';
 

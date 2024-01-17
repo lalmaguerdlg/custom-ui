@@ -42,8 +42,11 @@ module.exports = {
 
     config.resolve.alias = {
       ...config.resolve.alias,
-      '@custom-ui/themed': path.join(__dirname, '../../../packages/themed/src'),
-      '@custom-ui/config': path.join(
+      '@occ-ui/components': path.join(
+        __dirname,
+        '../../../packages/themed/src'
+      ),
+      '@occ-ui/config': path.join(
         __dirname,
         '../../../packages/config/src/gluestack-ui.config'
       ),
@@ -51,7 +54,7 @@ module.exports = {
 
     config.resolve.alias = {
       ...config.resolve.alias,
-      '@custom-ui/config': path.join(
+      '@occ-ui/config': path.join(
         __dirname,
         '../../../packages/config/src/gluestack-ui.config'
       ),

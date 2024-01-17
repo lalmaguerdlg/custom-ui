@@ -15,7 +15,7 @@ import {
   SettingsIcon,
   AddIcon,
   Center,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 import { PaintBucket, PuzzleIcon } from 'lucide-react-native';
 
 const MenuBasic = ({ placement = 'bottom' }: any) => {

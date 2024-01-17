@@ -1,7 +1,7 @@
 import React from 'react';
-import { Box } from '@custom-ui/themed';
+import { Box } from '@occ-ui/components';
 
-import { VStack } from '@custom-ui/themed';
+import { VStack } from '@occ-ui/components';
 
 const VStackReversed = ({ space, ...props }: any) => {
   return (

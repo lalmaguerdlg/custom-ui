@@ -58,7 +58,7 @@ import {
   TrashIcon,
   UnlockIcon,
   createIcon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const IconBasic = ({ size, ...props }: any) => {
   return <Icon size={size} {...props} as={AddIcon} />;

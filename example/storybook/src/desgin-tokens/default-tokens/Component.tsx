@@ -8,8 +8,8 @@ import {
   GluestackUIProvider,
   Heading,
   Divider,
-} from '@custom-ui/themed';
-import { config } from '@custom-ui/config';
+} from '@occ-ui/components';
+import { config } from '@occ-ui/config';
 import { Table, TR, TBody, TD, THead, TH } from '@expo/html-elements';
 const colors: any = config.tokens.colors;
 
@@ -50,7 +50,7 @@ sortedColorPalette.others = { ...colorPalette.others };
 
 const ColorPaletteComponent = () => {
   return (
-    <GluestackUIProvider config={config}>
+    <GluestackUIProvider config={config} colorMode="light">
       <VStack flex={1}>
         {Object.keys(sortedColorPalette).map((category: string) => {
           return (
@@ -156,7 +156,7 @@ mapEntries.sort(([keyA, valueA]: any, [keyB, valueB]: any) => {
 
 const SpaceComponent = () => {
   return (
-    <GluestackUIProvider config={config}>
+    <GluestackUIProvider config={config} colorMode="light">
       <VStack>
         <HStack h="$8" alignItems="center">
           <Text w={100} mr="$4">
@@ -194,7 +194,7 @@ const opacity: any = config.tokens.opacity;
 
 const OpacityComponent = () => {
   return (
-    <GluestackUIProvider config={config}>
+    <GluestackUIProvider config={config} colorMode="light">
       <HStack
         flexWrap="wrap"
         sx={{
@@ -250,7 +250,7 @@ const OpacityComponent = () => {
 
 const ShadowsComponent = () => {
   return (
-    <GluestackUIProvider config={config}>
+    <GluestackUIProvider config={config} colorMode="light">
       <VStack>
         {/* @ts-ignore */}
         <Heading size="sm" mb="$4">
@@ -320,7 +320,7 @@ const ShadowsComponent = () => {
 const borderWidths = config.tokens.borderWidths;
 const BorderWidthComponent = () => {
   return (
-    <GluestackUIProvider config={config}>
+    <GluestackUIProvider config={config} colorMode="light">
       <HStack
         sx={{
           _web: {
@@ -354,7 +354,7 @@ const BorderWidthComponent = () => {
 const radii = config.tokens.radii;
 const RadiiComponent = () => {
   return (
-    <GluestackUIProvider config={config}>
+    <GluestackUIProvider config={config} colorMode="light">
       <HStack
         sx={{
           _web: {
@@ -531,7 +531,7 @@ const StringBreakPointsComponent = () => {
 const fontSizes = config.tokens.fontSizes;
 const FontSizeComponent = () => {
   return (
-    <GluestackUIProvider config={config}>
+    <GluestackUIProvider config={config} colorMode="light">
       <VStack>
         <HStack h="$8" alignItems="center">
           <Text w={100} mr="$4" fontWeight="bold">
@@ -572,7 +572,7 @@ const FontSizeComponent = () => {
 
 const FontComponent = ({ fontObject, property }: any) => {
   return (
-    <GluestackUIProvider config={config}>
+    <GluestackUIProvider config={config} colorMode="light">
       <VStack>
         <HStack h="$8" alignItems="center">
           <Text w={100} mr="$4" fontWeight="bold">

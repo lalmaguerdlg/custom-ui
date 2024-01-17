@@ -60,7 +60,7 @@ import {
   ThreeDotsIcon,
   PlayIcon,
   createIcon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 import { Path, Rect, Defs, Stop, LinearGradient } from 'react-native-svg';
 

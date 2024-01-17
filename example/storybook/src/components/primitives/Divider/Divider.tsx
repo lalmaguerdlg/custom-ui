@@ -9,7 +9,7 @@ import {
   Heading,
   Button,
   ButtonText,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const DividerBasic = ({ ...props }) => {
   return (

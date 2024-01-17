@@ -17,7 +17,7 @@ import {
   VStack,
   HStack,
   Heading,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const MultipleModals = ({ ...props }: any) => {
   const [showModal, setShowModal] = React.useState(false);

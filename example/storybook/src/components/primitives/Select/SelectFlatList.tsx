@@ -15,7 +15,7 @@ import {
   SelectFlatList,
   SelectTrigger,
   Icon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const SelectWithFlatList = ({ isDisabled, isInvalid, ...props }: any) => {
   const DATA = [

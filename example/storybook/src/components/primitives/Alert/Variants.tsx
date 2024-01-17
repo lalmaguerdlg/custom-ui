@@ -1,7 +1,7 @@
 import React from 'react';
-import { BellIcon, Center } from '@custom-ui/themed';
+import { BellIcon, Center } from '@occ-ui/components';
 
-import { Alert, AlertIcon, AlertText, InfoIcon } from '@custom-ui/themed';
+import { Alert, AlertIcon, AlertText, InfoIcon } from '@occ-ui/components';
 import {
   AlertCircleIcon,
   CheckCircle2Icon,

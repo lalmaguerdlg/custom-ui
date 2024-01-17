@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { HStack } from '@custom-ui/themed';
-import { Button, ButtonSpinner, ButtonText } from '@custom-ui/themed';
+import { HStack } from '@occ-ui/components';
+import { Button, ButtonSpinner, ButtonText } from '@occ-ui/components';
 
 const ButtonIsLoading = ({}) => {
   const [isLoading] = React.useState(true);

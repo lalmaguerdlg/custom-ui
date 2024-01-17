@@ -1,5 +1,5 @@
 import React from 'react';
-import { AddIcon, Icon, IconButton } from '@custom-ui/themed';
+import { AddIcon, Icon, IconButton } from '@occ-ui/components';
 
 const IconButtonBasic = ({ ...props }: any) => {
   return (

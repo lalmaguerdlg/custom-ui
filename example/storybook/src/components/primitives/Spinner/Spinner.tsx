@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Spinner, HStack, Text, VStack } from '@custom-ui/themed';
+import { Spinner, HStack, Text, VStack } from '@occ-ui/components';
 
 const SpinnerBasic = ({ ...props }) => <Spinner {...props} />;
 

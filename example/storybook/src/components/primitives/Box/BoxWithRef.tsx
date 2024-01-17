@@ -1,4 +1,4 @@
-import { Box } from '@custom-ui/themed';
+import { Box } from '@occ-ui/components';
 import React from 'react';
 
 const BoxWithRef = ({ ...props }: any) => {

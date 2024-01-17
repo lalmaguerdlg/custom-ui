@@ -11,7 +11,7 @@ import {
   Icon,
   Heading,
   Text,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 import { User } from 'lucide-react-native';
 
 const AvatarBasic = ({

@@ -22,7 +22,7 @@ import {
   InputField,
   ArrowLeftIcon,
   Link,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const ModalBasic = ({ showModal: showModalProp = true, ...props }) => {
   const [showModal, setShowModal] = React.useState(false);

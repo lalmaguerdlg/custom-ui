@@ -5,7 +5,7 @@ import {
   Toast,
   ToastTitle,
   useToast,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const ToastPlacement = ({ placement = 'top', ...props }: any) => {
   const toast = useToast();

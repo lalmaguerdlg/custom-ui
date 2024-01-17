@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { VStack, Box } from '@custom-ui/themed';
+import { VStack, Box } from '@occ-ui/components';
 
 const VStackBasic = ({ space, reversed, ...props }: any) => {
   return (

@@ -14,7 +14,7 @@ import {
   Icon,
   SearchIcon,
   FormControl,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 import { EyeIcon, EyeOffIcon } from 'lucide-react-native';
 import { useState } from 'react';
 

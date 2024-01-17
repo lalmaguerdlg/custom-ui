@@ -16,7 +16,7 @@ import {
   SelectSectionHeaderText,
   SelectTrigger,
   Icon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const SelectWithSectionList = ({ isDisabled, isInvalid, ...props }: any) => {
   const DATA = [

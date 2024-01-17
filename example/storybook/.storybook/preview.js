@@ -1,9 +1,10 @@
 import { addParameters } from '@storybook/client-api';
 import { DocsContainer } from '@storybook/addon-docs/blocks';
-import { config } from '@custom-ui/config';
-import { Center, GluestackUIProvider } from '@custom-ui/themed';
+import { config } from '@occ-ui/config';
+import { Center, GluestackUIProvider } from '@occ-ui/components';
 import gstheme from './gstheme';
 import { themes } from '@storybook/theming';
+import { useDarkMode } from '../src/hooks/useDarkMode';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -35,21 +36,6 @@ export const parameters = {
       ],
     },
   },
-};
-
-export const decorators = [
-  (Story) => {
-    return (
-      <GluestackUIProvider config={config}>
-        <Center>
-          <Story />
-        </Center>
-      </GluestackUIProvider>
-    );
-  },
-];
-
-addParameters({
   docs: {
     theme: gstheme,
     inlineStories: false,
@@ -72,4 +58,20 @@ addParameters({
       brandImage: '/images/logo-dark.png',
     },
   },
-});
+};
+
+export const decorators = [
+  (Story) => {
+    const colorMode = useDarkMode();
+    function getColorMode() {
+      return colorMode ? 'dark' : 'light';
+    }
+    return (
+      <GluestackUIProvider config={config} colorMode={getColorMode()}>
+        <Center>
+          <Story />
+        </Center>
+      </GluestackUIProvider>
+    );
+  },
+];

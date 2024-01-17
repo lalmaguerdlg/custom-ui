@@ -10,7 +10,7 @@ import {
   ActionsheetItemText,
   ActionsheetScrollView,
   Button,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 import { useEffect } from 'react';
 
 const ActionsheetWithScrollView = ({

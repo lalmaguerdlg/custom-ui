@@ -14,7 +14,7 @@ import {
   SelectDragIndicator,
   SelectItem,
   Icon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const SelectBasic = ({ size = 'md', variant = 'outline', ...props }: any) => {
   return (

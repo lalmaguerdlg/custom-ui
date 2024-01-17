@@ -1,5 +1,5 @@
-import { Button, ButtonText } from '@custom-ui/themed';
-import { VStack } from '@custom-ui/themed';
+import { Button, ButtonText } from '@occ-ui/components';
+import { VStack } from '@occ-ui/components';
 
 import React from 'react';
 

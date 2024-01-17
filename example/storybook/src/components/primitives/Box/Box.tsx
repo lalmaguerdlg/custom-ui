@@ -1,4 +1,4 @@
-import { Text, Box } from '@custom-ui/themed';
+import { Text, Box } from '@occ-ui/components';
 import React from 'react';
 
 const BoxBasic: any = ({

@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled, useMedia } from '@custom-ui/themed';
+import { styled, useMedia } from '@occ-ui/components';
 import { View, Text } from 'react-native';
 
 const StyledBox = styled(View, {

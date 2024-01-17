@@ -7,8 +7,8 @@ import {
   AccordionIcon,
   AccordionContent,
   AccordionContentText,
-} from '@custom-ui/themed';
-import { Divider } from '@custom-ui/themed';
+} from '@occ-ui/components';
+import { Divider } from '@occ-ui/components';
 import { ChevronDownIcon } from 'lucide-react-native';
 import { ChevronUpIcon } from 'lucide-react-native';
 import { MinusIcon, PlusIcon } from 'lucide-react-native';

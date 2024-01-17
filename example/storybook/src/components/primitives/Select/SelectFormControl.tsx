@@ -23,7 +23,7 @@ import {
   FormControlErrorIcon,
   FormControlErrorText,
   AlertCircleIcon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const colors = [
   { label: 'Red', value: 'red-key' },

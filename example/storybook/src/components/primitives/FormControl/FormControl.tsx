@@ -57,7 +57,7 @@ import {
   CheckIcon,
   AlertCircleIcon,
   ChevronDownIcon,
-} from '@custom-ui/themed';
+} from '@occ-ui/components';
 
 const FormControlBasic = ({ ...props }) => {
   return (
